@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/imgintegrantes"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#040204"
@@ -17,7 +18,7 @@
         app:layout_constraintHorizontal_bias="0.64"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.397" />
+        app:layout_constraintVertical_bias="0.325" />
 
     <TextView
         android:id="@+id/textView"
@@ -43,17 +44,31 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.903"
-        app:srcCompat="@drawable/img" />
+        app:layout_constraintVertical_bias="0.811"
+        app:srcCompat="@drawable/emepzar"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="482dp"
-        android:layout_height="459dp"
+        android:layout_width="465dp"
+        android:layout_height="414dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.36"
+        app:layout_constraintVertical_bias="0.312"
         app:srcCompat="@drawable/corazon" />
+
+    <ImageButton
+        android:id="@+id/imgIntegrantes"
+        android:layout_width="231dp"
+        android:layout_height="89dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.961"
+        app:srcCompat="@drawable/integrantes"
+        tools:ignore="SpeakableTextPresentCheck" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

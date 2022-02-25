@@ -15,7 +15,7 @@ import com.bumptech.glide.Glide;
 
 public class MainActivity extends AppCompatActivity {
    private ImageView imagen;
-   private ImageButton comenzar;
+   private ImageButton comenzar, integrantes;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +29,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent dale = new Intent(getApplicationContext(),MainPage2.class);
                 startActivity(dale);
+            }
+        });
+        integrantes = findViewById(R.id.imgIntegrantes);
+        integrantes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent integrand = new Intent(getApplicationContext(),Integrantes.class);
+                startActivity(integrand);
             }
         });
     }

@@ -7,6 +7,9 @@
     android:background="#040204"
     tools:context=".MainPage2">
 
+<include layout="@layout/toolbar"/>
+
+
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="379dp"
@@ -65,8 +68,8 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="318dp"
-        android:layout_height="104dp"
+        android:layout_width="320dp"
+        android:layout_height="106dp"
         android:fontFamily="@font/anton"
         android:text="BIENVENID@"
         android:textAlignment="center"
@@ -75,10 +78,10 @@
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.043" />
+        app:layout_constraintVertical_bias="0.1" />
 
     <TextView
         android:id="@+id/textView3"
@@ -93,7 +96,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.229" />
+        app:layout_constraintVertical_bias="0.246" />
 
     <EditText
         android:id="@+id/EdtEdad"
@@ -126,6 +129,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.578"
-        app:srcCompat="@drawable/img_2" />
+        app:srcCompat="@drawable/img_2"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.frecuenciacardiaca">
+    package="com.example.frecuenciacardiaca" >
 
     <application
         android:allowBackup="true"
@@ -8,13 +8,16 @@
         android:label="FRECUENCIA MAXIMA"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.FrecuenciaCardiaca">
+        android:theme="@style/Theme.FrecuenciaCardiaca" >
+        <activity
+            android:name=".Integrantes"
+            android:exported="false" />
         <activity
             android:name=".MainPage2"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

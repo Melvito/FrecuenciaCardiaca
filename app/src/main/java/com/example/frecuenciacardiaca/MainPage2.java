@@ -1,6 +1,7 @@
 package com.example.frecuenciacardiaca;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
 import android.view.View;
@@ -17,12 +18,24 @@ public class MainPage2 extends AppCompatActivity {
     private ImageButton Calcular;
     private EditText ed;
     private TextView res;
+    private Toolbar toolbar;
     int edad;
+    private ImageView atras;
+    private TextView texto;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_page2);
+        atras = findViewById(androidx.appcompat.R.id.icon);
+        texto= findViewById(R.id.Texto);
+        texto.setText("FRECUENCIA MAXIMA");
+        atras.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
         imagenn = findViewById(R.id.ImgImage2);
         Glide.with(getApplicationContext()).load(R.drawable.latido_2).into(imagenn);
         ed = findViewById(R.id.EdtEdad);

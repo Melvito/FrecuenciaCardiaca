@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/melvi/AndroidStudioProjects/FrecuenciaCardiaca/app/src/main/res/layout/activity_integrantes.xml" value="0.2" />
         <entry key="..\:/Users/melvi/AndroidStudioProjects/FrecuenciaCardiaca/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/melvi/AndroidStudioProjects/FrecuenciaCardiaca/app/src/main/res/layout/activity_main_page2.xml" value="0.2" />
+        <entry key="..\:/Users/melvi/AndroidStudioProjects/FrecuenciaCardiaca/app/src/main/res/layout/toolbar.xml" value="0.2" />
       </map>
     </option>
   </component>
